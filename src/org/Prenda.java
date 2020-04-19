@@ -1,10 +1,11 @@
 package org;
 
-import java.awt.Color;
 
 public class Prenda {
 	
-	private Color color;
+	private Color colorPrimario;
+	
+	private Color colorSecundario;
 	
 	private TipoPrenda tipoPrenda;
 	
@@ -13,11 +14,11 @@ public class Prenda {
 	private Categoria categoria;
 
 	public Color getColor() {
-		return color;
+		return colorPrimario;
 	}
 
 	public void setColor(Color color) {
-		this.color = color;
+		this.colorPrimario = color;
 	}
 
 	public TipoPrenda getTipoPrenda() {
@@ -42,6 +43,14 @@ public class Prenda {
 
 	public void setCategoria(Categoria categoria) {
 		this.categoria = categoria;
+	}
+
+	public Color getColorSecundario() {
+		return colorSecundario;
+	}
+
+	public void setColorSecundario(Color colorSecundario) {
+		this.colorSecundario = colorSecundario;
 	}
 	
 	
